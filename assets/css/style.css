@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+    color: orange;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* apply styles to <header> */
+  header {
+    padding: 20px 35px;
+    background-color:green;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color:black;
+    margin: 0;
+    display: inline;
+}
