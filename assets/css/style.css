@@ -1,25 +1,230 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.intro{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size: auto;
+  display: flex;
+
+}
+body{
+ background-color: lightskyblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+header{
+  padding: 10px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+    }
+ 
+
+.About-Me{
+  padding: 10px;
+  margin: 10px;
+  color: gold;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+nav ul {
   
-  body {
-   
-    color: orange;
-    font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  /* apply styles to <header> */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  background-color: crimson;
+  color: black;
+}
+
+nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.5vw;
+}
+
+/*Section tags*/
+section {
+  padding: 20px;
+  width: 1280px;
+  margin: 40px auto;
+}
+a:hover {
+  background-color: white;
+  transition: all 1s ease-in-out; 
+
+}
+section ul{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+section ul li{
+  list-style: none;
+  background: rgb(187, 187, 187);
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  justify-content: center;
+}
+section ul li.active {
+  background: rgb(46, 245, 245);
+  color: #fff;
+  justify-content: center;
+}
+article{
+  list-style: none;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 2px;
+  justify-content: center;
+}
+footer {
+ 
+  padding: 5px;
+  width: relative;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: left;
+  padding: 20px;
+  position: bottom;
+
+}
+
+@media screen and (max-width: 980px) {
   header {
-    padding: 20px 35px;
-    background-color:green;
+    padding-bottom: 0;
+    justify-content: center;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+}
+
+header h2 {
+  width: 100%;
+  text-align: center;
+}
+article {
+    width: 100%;
+  text-align: center;
   }
-  
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color:black;
-    margin: 0;
-    display: inline;
+  footer{
+      width: 100%;
+      text-align: center;
+  }
+  .product{
+  width: 100%;
+  text-align: center;
+  }
+  .About-Me{
+      width: 100%;
+      text-align: center;
+      }
+  .list{
+      width: auto;
+      text-align: center;
+  }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+section {
+  padding: 30px 15px;
+}
+header {
+  padding-bottom: 0;
+  justify-content: center;
+}
+header h1 {
+width: 100%;
+text-align: center;
+}
+
+
+.About-Me{
+  width: 100%;
+  text-align: center;
+  }
+header h2 {
+width: 100%;
+text-align: center;
+}
+article {
+  width: 100%;
+text-align: center;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+.product{
+  width: 100%;
+  text-align: center;
+  }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+.Face {
+  width: 100%;
+}
+
+header {
+  padding-bottom: 0;
+  justify-content: center;
+}
+header h1 {
+width: 100%;
+text-align: center;
+}
+
+header h2 {
+width: 100%;
+text-align: center;
+}
+article {
+  width: 100%;
+text-align: center;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+.product{
+  width: 100%;
+  text-align: center;
+  }
+  .About-Me{
+      width: 100%;
+      text-align: center;
+      }
 }
