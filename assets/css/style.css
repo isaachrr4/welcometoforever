@@ -14,15 +14,14 @@
   display: flex;
 
 }
+
 body{
- background-color: lightskyblue;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-
+  background-color: lightskyblue;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
 header{
   padding: 10px;
   width: auto;
@@ -32,16 +31,21 @@ header{
     
     }
  
+.image{
+  background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
 
 .About-Me{
   padding: 10px;
   margin: 10px;
-  color: gold;
+  color:whitesmoke;
   justify-content: center;
   text-align: center;
   font-size: 25px;
 }
-
 nav ul {
   
   display: flex;
